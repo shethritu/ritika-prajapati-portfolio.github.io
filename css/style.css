@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Real Text';
+    src: url('../fonts/RealTextBlack.eot');
+    src: url('../fonts/RealTextBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RealTextBlack.woff2') format('woff2'),
+        url('../fonts/RealTextBlack.woff') format('woff'),
+        url('../fonts/RealTextBlack.ttf') format('truetype'),
+        url('../fonts/RealTextBlack.svg#RealTextBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Real Text';
+    src: url('../fonts/RealTextBold.eot');
+    src: url('../fonts/RealTextBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RealTextBold.woff2') format('woff2'),
+        url('../fonts/RealTextBold.woff') format('woff'),
+        url('../fonts/RealTextBold.ttf') format('truetype'),
+        url('../fonts/RealTextBold.svg#RealTextBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Real Text';
+    src: url('../fonts/RealTextRegular.eot');
+    src: url('../fonts/RealTextRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RealTextRegular.woff2') format('woff2'),
+        url('../fonts/RealTextRegular.woff') format('woff'),
+        url('../fonts/RealTextRegular.ttf') format('truetype'),
+        url('../fonts/RealTextRegular.svg#RealTextRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Real Text';
+    src: url('../fonts/RealTextLight.eot');
+    src: url('../fonts/RealTextLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RealTextLight.woff2') format('woff2'),
+        url('../fonts/RealTextLight.woff') format('woff'),
+        url('../fonts/RealTextLight.ttf') format('truetype'),
+        url('../fonts/RealTextLight.svg#RealTextLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Real Text';
+    src: url('../fonts/RealTextMedium.eot');
+    src: url('../fonts/RealTextMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RealTextMedium.woff2') format('woff2'),
+        url('../fonts/RealTextMedium.woff') format('woff'),
+        url('../fonts/RealTextMedium.ttf') format('truetype'),
+        url('../fonts/RealTextMedium.svg#RealTextMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Grandista';
+    src: url('../fonts/Grandista.eot');
+    src: url('../fonts/Grandista.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Grandista.woff2') format('woff2'),
+        url('../fonts/Grandista.woff') format('woff'),
+        url('../fonts/Grandista.ttf') format('truetype'),
+        url('../fonts/Grandista.svg#Grandista') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+body, html {margin: 0;min-height: 100%;outline: none;padding: 0;font-family: 'Real Text';font-weight: 400;   font-style: normal;}
+*, :after, :before {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+p{margin: 0;}
+a{text-decoration: none;}
+img {width: 100%;}
+.title h5 {color: #F48C06;}
+.title {margin-bottom: 30px;}    
+.title h2 {position: relative;margin-bottom: 30px; font-family: 'Grandista';}
+.title h2::before {content: "";background-color: #faa307;width: 80px;position: absolute;bottom: -10px;height: 2px;}
+
+/*---------------- header css start ----------------*/
+
+.navbar-brand img{max-width: 250px;width: 100%;}
+.navbar-collapse{flex-grow: inherit;}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link:focus, .nav-link:hover {color: #F48C06;}
+
+/*---------------- header css end ----------------*/
+
+/*---------------- banner css start ----------------*/
+.banner-section {padding: 80px 0;background-color: #f8f9fa;}
+.banner-inner h6 {position: relative;}
+.banner-inner h6::before {content: "";background-color: #faa307;width: 40px;position: absolute;bottom: -10px;height: 2px;}
+.banner-section .personal-img img{width: 100%;border-radius: 1000%;max-width: 600px;height: 600px;object-fit: cover;border: 10px solid #F48C06;padding: 10px;}
+.banner-inner h6 {text-transform: uppercase;letter-spacing: 1px;}
+.banner-inner .name-designation, .banner-inner h6 {margin-bottom: 80px;}
+.banner-section .contact-details p {margin-bottom: 10px;}
+.banner-section .contact-details p a {color: #000;}
+.banner-section .contact-details p i{color: #F48C06;margin-right: 5px;}
+.banner-section .name-designation h1 {font-size: 4.8823529411765rem;}
+.banner-inner .name-designation h2 {color: #B7B7A5;font-weight: normal;    font-family: 'Grandista';font-style: normal;}
+
+/*---------------- banner css end ----------------*/
+
+/*---------------- about css start ----------------*/
+.about-section {padding: 80px 0;}
+.about-content p {margin-bottom: 15px;}
+.cv-btn a {background-color: #ffba08;border: 0;padding: 10px 30px;text-transform: uppercase;border-radius: 10px;transition: all ease .5s;color: #000;margin-top: 10px;display: inline-block;}
+.about-img img {object-fit: cover;height: 395px;border-radius: 50%;max-width: 395px;border: 10px solid #F48C06;padding: 10px;}
+.cv-btn a:hover{opacity: .8;}
+/*---------------- about css end ----------------*/
+
+
+/*---------------- services css start ----------------*/
+
+.services-section, .contact-form{background-color: #f8f9fa;padding: 80px 0;}
+
+/*==================== SERVICE CARD ====================*/
+
+.icon-box img {max-width: 100px;}
+.service-block-one .inner-box .hover-img, .service-block-one .inner-box:hover .main-img{display: none;}
+.service-block-one .inner-box:hover .hover-img{display: block;}
+.service-block-one .inner-box {background-color: #000;padding: 30px;position: relative;display: block;overflow: hidden;text-align: center;}
+.service-block-one .card__content h4, .service-block-one .inner-box .icon-box{margin-bottom: 20px;}
+.service-block-one .inner-box .icon-box{position: relative;display: flex;align-items: center;justify-content: center;z-index: 1;transition: all 500ms ease;}
+.service-block-one .card__content {color: #fff;}
+.service-block-one {margin-bottom: 15px;}
+.service-block-one .card__content h4{    font-family: 'Grandista';font-style: normal;}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1920px 0;
+  }
+}
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1920px 0;
+  }
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1920px 0;
+  }
+}
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1920px 0;
+  }
+}
+
+.service-block-one .inner-box:hover .icon-box {transform: rotateY(360deg);color: #fff;}
+.service-block-one .inner-box:before {position: absolute;content: "";width: 100%;height: 0;left: 0;bottom: 0;right: 0;transition: all 500ms ease;}
+.service-block-one .inner-box:before {background: #F48C06;}
+.service-block-one .inner-box:hover:before {height: 100%;top: 0;}
+.service-block-one .inner-box:hover .card__content {color: #000000;position: relative;}
+
+/*---------------- services css end ----------------*/
+
+/*---------------- portfolio-section css start ----------------*/
+
+.portfolio-section {padding: 80px 0;}
+.portfolio-section .img-link {margin-bottom: 20px;display: block;transition: transform 0.5s;}
+.portfolio-section .img-link img{height: 100%;}
+.portfolio-section .img-link:hover {transform: scale3d(1.006, 1.006, 1);}
+.portfolio-section .img-link:after{position: absolute;top: 0;left: 0;border-radius: 15px;width: 100%;height: 100%;transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);content: "";opacity: 0;z-index: -1;}
+.portfolio-section .img-link:hover::after, .portfolio-section .img-link:focus::after {opacity: 1;}
+.portfolio-section .img-link img {height: 300px;object-fit: cover;object-position: top;border-radius: 15px;}
+
+/*---------------- portfolio-section css end ----------------*/
+
+
+
+/*---------------- contact css start ----------------*/
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {width: 100%;padding: 10px;margin-bottom: 10px;border: 1px solid #B7B7A5;border-radius: 5px;}
+.contact-form input[type="submit"] {background-color: #ffba08;border: 0;padding: 10px 30px;text-transform: uppercase;border-radius: 10px;transition: all ease .5s;}
+.contact-form input[type="submit"]:hover {opacity: .8;}
+
+/*---------------- contact css end ----------------*/
+
+/*---------------- footer css start ----------------*/
+
+.footer{background-color: #B7B7A5;}
+.footer .btn.btn-link:hover {color: #000000;}
+.footer .btn.btn-link {border: 0;background-color: #fff;transition: all .5s ease;color: #000;margin: 0 5px;position: relative;overflow: hidden;}
+.footer .btn.btn-link::before {content: "";position: absolute;top: 100%;left: 0;width: 100%;height: 100%;background: #f00;transition: .5s;z-index: 2;}
+.footer .btn.btn-link:hover:before {   top: 0;}
+.footer .btn.btn-link:nth-child(1):before {background: #3b5999;}
+.footer .btn.btn-link:nth-child(2):before {background: #833AB4;}
+.footer .btn.btn-link:nth-child(3):before {background: #25D366;}
+.footer .btn.btn-link:nth-child(4):before {background: #0077b5;}
+.footer .btn.btn-link:hover .fa{position: relative;color: #fff;z-index: 2;}
+/*---------------- footer css end ----------------*/
+
+/*----------------------------- responsive style -------------------------*/
+
+@media screen and (max-width: 1520px) {
+
+}/*-------- 1520 ends here ----------*/
+
+@media screen and (max-width: 1365px) {
+
+}/*-------- 1365 ends here ----------*/
+
+@media screen and (max-width: 1199px) {
+
+}/*-------- 1199 ends here ----------*/
+
+@media screen and (max-width: 991px) {
+
+}/*-------- 991 ends here ----------*/
+
+@media screen and (max-width: 880px) {
+
+}/*-------- 880 ends here ----------*/
+
+@media screen and (max-width: 767px) {
+
+/*---------------- header css start ----------------*/
+
+.navbar-brand img {max-width: 210px;width: 100%;}
+
+/*---------------- header css end ----------------*/
+
+}/*-------- 767 ends here ----------*/
+
+@media screen and (max-width: 630px) {
+
+}/*-------- 630 ends here ----------*/
+
+@media screen and (max-width: 568px) {
+
+}/*-------- 568 ends here ----------*/
+
+@media screen and (max-width: 480px) {
+
+}/*-------- 480 ends here ----------*/
+
+@media screen and (max-width: 360px) {
+
+}/*-------- 360 ends here ----------*/
+
+

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Real Text';
+    src: url('RealTextBlack.eot');
+    src: url('RealTextBlack.eot?#iefix') format('embedded-opentype'),
+        url('RealTextBlack.woff2') format('woff2'),
+        url('RealTextBlack.woff') format('woff'),
+        url('RealTextBlack.ttf') format('truetype'),
+        url('RealTextBlack.svg#RealTextBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Real Text';
+    src: url('RealTextBold.eot');
+    src: url('RealTextBold.eot?#iefix') format('embedded-opentype'),
+        url('RealTextBold.woff2') format('woff2'),
+        url('RealTextBold.woff') format('woff'),
+        url('RealTextBold.ttf') format('truetype'),
+        url('RealTextBold.svg#RealTextBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Real Text';
+    src: url('RealTextRegular.eot');
+    src: url('RealTextRegular.eot?#iefix') format('embedded-opentype'),
+        url('RealTextRegular.woff2') format('woff2'),
+        url('RealTextRegular.woff') format('woff'),
+        url('RealTextRegular.ttf') format('truetype'),
+        url('RealTextRegular.svg#RealTextRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Real Text';
+    src: url('RealTextLight.eot');
+    src: url('RealTextLight.eot?#iefix') format('embedded-opentype'),
+        url('RealTextLight.woff2') format('woff2'),
+        url('RealTextLight.woff') format('woff'),
+        url('RealTextLight.ttf') format('truetype'),
+        url('RealTextLight.svg#RealTextLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Real Text';
+    src: url('RealTextMedium.eot');
+    src: url('RealTextMedium.eot?#iefix') format('embedded-opentype'),
+        url('RealTextMedium.woff2') format('woff2'),
+        url('RealTextMedium.woff') format('woff'),
+        url('RealTextMedium.ttf') format('truetype'),
+        url('RealTextMedium.svg#RealTextMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
