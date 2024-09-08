@@ -227,7 +227,9 @@ img {width: 100%;}
 }/*-------- 1365 ends here ----------*/
 
 @media screen and (max-width: 1199px) {
-
+/*---------------- banner css start ----------------*/
+    .banner-section .personal-img img{max-width: 490px;height: 490px;}
+/*---------------- banner css end ----------------*/
 }/*-------- 1199 ends here ----------*/
 
 @media screen and (max-width: 991px) {
