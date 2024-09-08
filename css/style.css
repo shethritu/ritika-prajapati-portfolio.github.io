@@ -259,6 +259,9 @@ img {width: 100%;}
 }/*-------- 880 ends here ----------*/
 
 @media screen and (max-width: 767px) {
+ /*---------------- about css start ----------------*/
+.about-img img {height: 430px;max-width: 430px;}
+/*---------------- about css end ----------------*/
 
 /*---------------- header css start ----------------*/
 
