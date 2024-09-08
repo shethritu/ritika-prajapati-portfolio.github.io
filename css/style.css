@@ -1,328 +1,383 @@
-@font-face {
-font-family: 'Real Text';
-src: url('../fonts/RealTextBlack.eot');
-src: url('../fonts/RealTextBlack.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/RealTextBlack.woff2') format('woff2'),
-    url('../fonts/RealTextBlack.woff') format('woff'),
-    url('../fonts/RealTextBlack.ttf') format('truetype'),
-    url('../fonts/RealTextBlack.svg#RealTextBlack') format('svg');
-font-weight: 900;
-font-style: normal;
-font-display: swap;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>Ritika Prajapati | Web Designer</title>
+</head>
+<body>
+<header>
+  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container">
+		    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+		    <button class="navbar-toggler hamburger"  id="hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse justify-content-flex-end" id="navbarSupportedContent">
+		      <ul class="navbar-nav mb-2 mb-lg-0 menu" id="menu">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="#">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#about">about</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#services">services</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#portfolio">portfolio</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#contact">contact</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+</header>
 
-@font-face {
-font-family: 'Real Text';
-src: url('../fonts/RealTextBold.eot');
-src: url('../fonts/RealTextBold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/RealTextBold.woff2') format('woff2'),
-    url('../fonts/RealTextBold.woff') format('woff'),
-    url('../fonts/RealTextBold.ttf') format('truetype'),
-    url('../fonts/RealTextBold.svg#RealTextBold') format('svg');
-font-weight: bold;
-font-style: normal;
-font-display: swap;
-}
+<div class="banner-section">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="banner-inner">
+					<h6>Hello, my name is</h6>
+					<div class="name-designation">
+						<h1>Ritika Prajapati</h1>
+						<h2>Web Designer</h2>
+					</div>
+					<div class="contact-details">
+						<p><i class="fa fa-envelope-o" aria-hidden="true"></i>
+<a href="mailto:shethritika65@gmail.com">shethritika65@gmail.com</a></p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>
+<a href="tel:9313002808">9313002808</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-sm-12 personal-img"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+				<img src="images/IMG_20181108_183749.jpg" alt="IMG_20181108_183749">
+			</div>
+		</div>
+	</div>
+</div>
 
-@font-face {
-font-family: 'Real Text';
-src: url('../fonts/RealTextRegular.eot');
-src: url('../fonts/RealTextRegular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/RealTextRegular.woff2') format('woff2'),
-    url('../fonts/RealTextRegular.woff') format('woff'),
-    url('../fonts/RealTextRegular.ttf') format('truetype'),
-    url('../fonts/RealTextRegular.svg#RealTextRegular') format('svg');
-font-weight: normal;
-font-style: normal;
-font-display: swap;
-}
+<div class="about-section" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="about-title title">
+					<h2>A Bit About Me</h2>
+					<h5>I am an enthusiastic web designer based in India, with a rich experience of over 6 years in website design.
+					</h5>
+				</div>
+			</div>
+		</div>
+		<div class="row"> 
+			<div class="col-lg-4 about-content">
+				<p>I’m Ritika Prajapati, the creative force behind Ritika's designs. As a dedicated web designer with a passion for both art and technology, I’m here to transform your ideas into stunning and functional websites. My goal is to make your digital presence as impactful and engaging as possible.</p>
+				<p>I’ve been designing websites since 2018. My journey started with a simple idea: to combine artistic design with practical functionality. Over the years, I’ve honed my skills and developed a keen eye for detail, ensuring that every project I work on is not only visually appealing but also highly effective.</p>
+				<p>With a passion for creativity and a keen eye for detail, I specialize in creating visually stunning, user-friendly websites that not only look great but also deliver outstanding functionality.</p>
+			</div>
+			<div class="col-lg-4 about-content">
+				<p> My journey in web design began with a love for clean, effective design that resonates with users and enhances the overall online experience.</p>
+				<p>As a web designer, I work closely with my clients to understand their vision and bring it to life with tailored solutions. From concept to completion, I ensure that every website is not only visually appealing but also optimized for performance, accessibility, and SEO.</p>
+				<p>Whether you're a startup, small business, or established company looking to refresh your online presence, I’m here to help you create a digital space that stands out. Let’s work together to turn your ideas into reality and make your website a true reflection of your brand.</p>
+				<div class="cv-btn">
+					<a target="_blank" href="images/Ritika_Prajapati_CV.pdf">View my CV</a>
+				</div>
+			</div>
+			<div class="col-lg-4 about-img" data-aos="zoom-out" data-aos-offset="500"
+     data-aos-duration="500">
+				<img src="images/web-design-technology-browsing-programming-concept.jpg" alt="web-design-technology-browsing-programming-concept">
+			</div>
+		</div>
+	</div>
+</div>
 
-@font-face {
-font-family: 'Real Text';
-src: url('../fonts/RealTextLight.eot');
-src: url('../fonts/RealTextLight.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/RealTextLight.woff2') format('woff2'),
-    url('../fonts/RealTextLight.woff') format('woff'),
-    url('../fonts/RealTextLight.ttf') format('truetype'),
-    url('../fonts/RealTextLight.svg#RealTextLight') format('svg');
-font-weight: 300;
-font-style: normal;
-font-display: swap;
-}
+<div class="services-section" id="services">
+	<div class="container card__container">
+		<div class="row">
+			<div class="col-lg-12 title">
+				<h2>What Services I'm Providing</h2>
+				<h5>Modern, Responsive Designs for Any Device<br>Bringing Your Vision to Life with Precision and Style</h5>
+			</div>
+		</div>
+		<div class="row card_row">
+			<div class="col-lg-4" data-aos="fade-down" data-aos-offset="500"
+     data-aos-duration="500">
+				<div class="service-block">
+					<div class="service-block-one">
+						<div class="inner-box">
+						  	<div class="icon-box">
+							  	<img src="images/web-design.png" alt="web-design" class="main-img">
+							  	<img src="images/web-design-white.png" alt="web-design-white" class="hover-img">
+							</div>
+		        			<div class="card__content">
+								<h4>
+								Custom Web Design
+								</h4>
+								<p>Our custom web design services focus on creating unique, visually appealing websites that capture your brand’s essence. We work closely with you to understand your vision and translate it into a functional and attractive website. Our designs are user-centric, ensuring an optimal user experience that converts visitors into customers.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-@font-face {
-font-family: 'Real Text';
-src: url('../fonts/RealTextMedium.eot');
-src: url('../fonts/RealTextMedium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/RealTextMedium.woff2') format('woff2'),
-    url('../fonts/RealTextMedium.woff') format('woff'),
-    url('../fonts/RealTextMedium.ttf') format('truetype'),
-    url('../fonts/RealTextMedium.svg#RealTextMedium') format('svg');
-font-weight: 500;
-font-style: normal;
-font-display: swap;
-}
+			<div class="col-lg-4" data-aos="fade-down" data-aos-offset="500"
+     data-aos-duration="500">
+				<div class="services-card">
+					<div class="service-block">
+						<div class="service-block-one">
+							<div class="inner-box">
 
-@font-face {
-font-family: 'Grandista';
-src: url('../fonts/Grandista.eot');
-src: url('../fonts/Grandista.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Grandista.woff2') format('woff2'),
-    url('../fonts/Grandista.woff') format('woff'),
-    url('../fonts/Grandista.ttf') format('truetype'),
-    url('../fonts/Grandista.svg#Grandista') format('svg');
-font-weight: normal;
-font-style: normal;
-font-display: swap;
-}
+							  <div class="icon-box">
+							  	<img src="images/hubspot.png" alt="hubspot-design" class="main-img">
+							  	<img src="images/hubspot-white.png" alt="hubspot-white" class="hover-img">
+							  </div>
+							<div class="card__content">
+								<h4>HubSpot Integration</h4>
+								<p>Integrate your website with HubSpot’s CRM and marketing tools to streamline your inbound marketing efforts. We set up HubSpot forms, email marketing, and analytics to help you attract, engage, and convert leads effectively.</p>
+							</div>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
 
+			<div class="col-lg-4"data-aos="fade-down" data-aos-offset="500"
+     data-aos-duration="500">
+				<div class="services-card">
+					<div class="service-block">
+						<div class="service-block-one">
+							<div class="inner-box">
 
+							  <div class="icon-box">
+							  	<img src="images/responsive.png" alt="responsive" class="main-img">
+							  	<img src="images/responsive-white.png" alt="responsive-white" class="hover-img">
+							  </div>
+							<div class="card__content">
+								<h4>Responsive Design</h4>
+								<p>We ensure your website is fully responsive, meaning it will look and function perfectly on any device, from smartphones to tablets to desktop computers. Our responsive design approach helps improve user engagement and search engine rankings.</p>
+							</div>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4" data-aos="fade-down" data-aos-offset="500"
+     data-aos-duration="500">
+				<div class="services-card">
+					<div class="service-block">
+						<div class="service-block-one">
+							<div class="inner-box">
 
+							  <div class="icon-box">
+							  	<img src="images/bootstrap.png" alt="bootstrap" class="main-img">
+							  	<img src="images/bootstrap-white.png" alt="bootstrap-white" class="hover-img">
+							  </div>
+							<div class="card__content">
+								<h4>Bootstrap Development</h4>
+								<p>Using Bootstrap, we create websites that are responsive and consistent across different devices and browsers. Bootstrap’s pre-designed components and grid system allow us to develop websites quickly without compromising on quality.</p>
+							</div>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
 
+			<div class="col-lg-4" data-aos="fade-down" data-aos-offset="500"
+     data-aos-duration="500">
+				<div class="services-card">
+					<div class="service-block">
+						<div class="service-block-one">
+							<div class="inner-box">
 
-body, html {margin: 0;min-height: 100%;outline: none;padding: 0;font-family: 'Real Text';font-weight: 400;   font-style: normal;}
-*, :after, :before {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
-p{margin: 0;}
-a{text-decoration: none;}
-img {width: 100%;}
-.title h5 {color: #F48C06;}
-.title {margin-bottom: 30px;}    
-.title h2 {position: relative;margin-bottom: 30px; font-family: 'Grandista';}
-.title h2::before {content: "";background-color: #faa307;width: 80px;position: absolute;bottom: -10px;height: 2px;}
+							  <div class="icon-box">
+							  	<img src="images/front-end-programming.png" alt="front-end-programming" class="main-img">
+							  	<img src="images/front-end-programming-white.png" alt="front-end-programming-white" class="hover-img">
+							  </div>
+							<div class="card__content">
+								<h4>HTML/CSS Coding</h4>
+								<p>We write clean, semantic HTML and CSS to ensure your website is fast, accessible, and SEO-friendly. Our coding practices follow best practices to enhance performance and maintainability.</p>
+							</div>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
 
-/*---------------- header css start ----------------*/
+			<div class="col-lg-4" data-aos="fade-down" data-aos-offset="500"
+     data-aos-duration="500">
+				<div class="services-card">
+					<div class="service-block">
+						<div class="service-block-one">
+							<div class="inner-box">
 
-.navbar-brand img{max-width: 160px;width: 100%;}
-.navbar-collapse{flex-grow: inherit;}
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link:focus, .nav-link:hover {color: #F48C06;}
-.navbar-brand {padding: 0;}
+							  <div class="icon-box">
+							  	<img src="images/wordpress.png" alt="wordpress" class="main-img">
+							  	<img src="images/wordpress-white.png" alt="wordpress-white" class="hover-img">
+							  </div>
+							<div class="card__content">
+								<h4>WordPress Page Development</h4>
+								<p>Specializing in WordPress page development, I help businesses create engaging, well-structured, and functional individual pages that drive conversions and enhance user experience. Whether you need a landing page, service page, or any other type of page, I ensure each one is optimized for performance and aligned with your brand.</p>
+							</div>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-/*---------------- header css end ----------------*/
-
-/*---------------- banner css start ----------------*/
-.banner-section {padding: 80px 0;background-color: #f8f9fa;}
-.banner-inner h6 {position: relative;}
-.banner-inner h6::before {content: "";background-color: #faa307;width: 40px;position: absolute;bottom: -10px;height: 2px;}
-.banner-section .personal-img img{width: 100%;object-position: top;border-radius: 1000%;max-width: 600px;height: 600px;object-fit: cover;border: 10px solid #F48C06;padding: 10px;}
-.banner-inner h6 {text-transform: uppercase;letter-spacing: 1px;}
-.banner-inner .name-designation, .banner-inner h6 {margin-bottom: 80px;}
-.banner-section .contact-details p {margin-bottom: 10px;}
-.banner-section .contact-details p a {color: #000;}
-.banner-section .contact-details p i{color: #F48C06;margin-right: 5px;}
-.banner-section .name-designation h1 {font-size: 4.8823529411765rem;}
-.banner-inner .name-designation h2 {color: #B7B7A5;font-weight: normal;    font-family: 'Grandista';font-style: normal;}
-
-/*---------------- banner css end ----------------*/
-
-/*---------------- about css start ----------------*/
-.about-section {padding: 80px 0;}
-.about-content p {margin-bottom: 15px;}
-.cv-btn a {background-color: #ffba08;border: 0;padding: 10px 30px;text-transform: uppercase;border-radius: 10px;transition: all ease .5s;color: #000;margin-top: 10px;display: inline-block;}
-.about-img img {object-fit: cover;height: 395px;border-radius: 50%;max-width: 395px;border: 10px solid #F48C06;padding: 10px;}
-.cv-btn a:hover{opacity: .8;}
-/*---------------- about css end ----------------*/
-
-
-/*---------------- services css start ----------------*/
-
-.services-section, .contact-form{background-color: #f8f9fa;padding: 80px 0;}
-
-/*==================== SERVICE CARD ====================*/
-
-.icon-box img {max-width: 100px;}
-.service-block-one .inner-box .hover-img, .service-block-one .inner-box:hover .main-img{display: none;}
-.service-block-one .inner-box:hover .hover-img{display: block;}
-.service-block-one .inner-box {background-color: #000;padding: 30px;position: relative;display: block;overflow: hidden;text-align: center;}
-.service-block-one .card__content h4, .service-block-one .inner-box .icon-box{margin-bottom: 20px;}
-.service-block-one .inner-box .icon-box{position: relative;display: flex;align-items: center;justify-content: center;z-index: 1;transition: all 500ms ease;}
-.service-block-one .card__content {color: #fff;}
-.service-block-one {margin-bottom: 15px;}
-.service-block-one .card__content h4{    font-family: 'Grandista';font-style: normal;}
-
-@keyframes slide {
-from {
-background-position: 0 0;
-}
-to {
-background-position: 1920px 0;
-}
-}
-@-webkit-keyframes slide {
-from {
-background-position: 0 0;
-}
-to {
-background-position: 1920px 0;
-}
-}
-
-@keyframes slide {
-from {
-background-position: 0 0;
-}
-to {
-background-position: 1920px 0;
-}
-}
-@-webkit-keyframes slide {
-from {
-background-position: 0 0;
-}
-to {
-background-position: 1920px 0;
-}
-}
-
-.service-block-one .inner-box:hover .icon-box {transform: rotateY(360deg);color: #fff;}
-.service-block-one .inner-box:before {position: absolute;content: "";width: 100%;height: 0;left: 0;bottom: 0;right: 0;transition: all 500ms ease;}
-.service-block-one .inner-box:before {background: #F48C06;}
-.service-block-one .inner-box:hover:before {height: 100%;top: 0;}
-.service-block-one .inner-box:hover .card__content {color: #000000;position: relative;}
-
-/*---------------- services css end ----------------*/
-
-/*---------------- portfolio-section css start ----------------*/
-
-.portfolio-section {padding: 80px 0;}
-.portfolio-section .img-link {margin-bottom: 20px;display: block;transition: transform 0.5s;}
-.portfolio-section .img-link:hover {transform: scale3d(1.006, 1.006, 1);}
-.portfolio-section .img-link:after{position: absolute;top: 0;left: 0;border-radius: 15px;width: 100%;height: 100%;transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);content: "";opacity: 0;z-index: -1;}
-.portfolio-section .img-link:hover::after, .portfolio-section .img-link:focus::after {opacity: 1;}
-.portfolio-section .img-link img {height: 300px;object-fit: cover;object-position: top;border-radius: 15px;border: 5px solid #F48C06;
-    padding: 10px;    box-shadow: 0 3px 11px 5px rgba(0, 0, 0, 0.25);}
-/*---------------- portfolio-section css end ----------------*/
-
-
-
-/*---------------- contact css start ----------------*/
-
-.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {width: 100%;padding: 10px;margin-bottom: 10px;border: 1px solid #B7B7A5;border-radius: 5px;}
-.contact-form input[type="submit"] {background-color: #ffba08;border: 0;padding: 10px 30px;text-transform: uppercase;border-radius: 10px;transition: all ease .5s;}
-.contact-form input[type="submit"]:hover {opacity: .8;}
-
-/*---------------- contact css end ----------------*/
-
-/*---------------- footer css start ----------------*/
-
-.footer{background-color: #B7B7A5;}
-.footer .btn.btn-link:hover {color: #000000;}
-.footer .btn.btn-link {border: 0;background-color: #fff;transition: all .5s ease;color: #000;margin: 0 5px;position: relative;overflow: hidden;}
-.footer .btn.btn-link::before {content: "";position: absolute;top: 100%;left: 0;width: 100%;height: 100%;background: #f00;transition: .5s;z-index: 2;}
-.footer .btn.btn-link:hover:before {   top: 0;}
-.footer .btn.btn-link.facebook-btn:before {background: #3b5999;}
-.footer .btn.btn-link.instagram-btn:before {background: #833AB4;}
-.footer .btn.btn-link.whatsapp-btn:before {background: #25D366;}
-.footer .btn.btn-link.linkedin-btn:before {background: #0077b5;}
-.footer .btn.btn-link:hover .fa{position: relative;color: #fff;z-index: 2;}
-/*---------------- footer css end ----------------*/
-
-#return-to-top {
-
-position: fixed;
-bottom: 20px;
-right: 20px;
-background: #F48C06;
-width: 50px;
-height: 50px;
-display: block;
-text-decoration: none;
--webkit-border-radius: 35px;
--moz-border-radius: 35px;
-border-radius: 35px;
-display: none;
--webkit-transition: all 0.3s linear;
--moz-transition: all 0.3s ease;
--ms-transition: all 0.3s ease;
--o-transition: all 0.3s ease;
-transition: all 0.3s ease;
-}
-#return-to-top:hover {
-opacity:0.8;
-}
-#return-to-top:hover i {
-color: #fff;
-top: 5px;
-}
-#return-to-top .fa.fa-angle-up {
-color: #fff;
-font-size: 25px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-/*----------------------------- responsive style -------------------------*/
-
-@media screen and (max-width: 1520px) {
-
-}/*-------- 1520 ends here ----------*/
-
-@media screen and (max-width: 1365px) {
-
-}/*-------- 1365 ends here ----------*/
-
-@media screen and (max-width: 1199px) {
-/*---------------- banner css start ----------------*/
-.banner-section .personal-img img{max-width: 490px;height: 490px;}
-/*---------------- banner css end ----------------*/
-
-/*---------------- about css start ----------------*/
-.about-img img{height: 300px;max-width: 300px;}
-/*---------------- about css end ----------------*/
-
-/*---------------- services css start ----------------*/
-.icon-box img {max-width: 80px;}
-/*---------------- services css end ----------------*/
-
-}/*-------- 1199 ends here ----------*/
-
-@media screen and (max-width: 991px) {
-/*---------------- banner css start ----------------*/
-.banner-section .name-designation h1 {font-size: 3.882353rem;}
-.banner-section .personal-img img {max-width: 700px;height: 700px;}
-.banner-section .personal-img{margin-top: 30px;text-align: center;}
-/*---------------- banner css end ----------------*/
-
-/*---------------- about css start ----------------*/
-.about-img {text-align: center;margin-top: 30px;}
-.about-img img {height: 700px;max-width: 700px;}
-/*---------------- about css end ----------------*/
-
-}/*-------- 991 ends here ----------*/
-
-@media screen and (max-width: 880px) {
-
-}/*-------- 880 ends here ----------*/
-
-@media screen and (max-width: 767px) {
-/*---------------- banner css start ----------------*/
-.banner-section, .about-section, .services-section, .contact-form, .portfolio-section {padding: 60px 0;}
-.banner-inner .name-designation, .banner-inner h6 {margin-bottom: 50px;}
-.banner-section .name-designation h1 {font-size: 2.882353rem;}
-/*---------------- banner css end ----------------*/
-
-/*---------------- about css start ----------------*/
-.about-img img, .banner-section .personal-img img {height: 430px;max-width: 430px;}
-/*---------------- about css end ----------------*/
-
-}/*-------- 767 ends here ----------*/
-
-@media screen and (max-width: 630px) {
-
-}/*-------- 630 ends here ----------*/
-
-@media screen and (max-width: 568px) {
-.about-img img, .banner-section .personal-img img {height: 350px;max-width: 350px;}
-}/*-------- 568 ends here ----------*/
-
-@media screen and (max-width: 480px) {
-.title h5 {font-size: 17px;}
-.banner-section .name-designation h1 {font-size: 2.2rem;}
-}/*-------- 480 ends here ----------*/
-
-@media screen and (max-width: 360px) {
-
-}/*-------- 360 ends here ----------*/
+<div class="portfolio-section" id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 title">
+				<h2>My Portfolio</h2>
+				<h5>A Showcase of Our Best Work<br>See How We’ve Transformed Brands with Creative Web Design</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<a  data-aos="zoom-in"  data-aos-offset="500"
+     data-aos-duration="500" class="img-link" href="https://shethritu.github.io/admevent-management.github.io/" target="_blank">
+					<img src="images/ADM.jpg" alt="ADM"></a>
+			</div>
+			<div class="col-lg-6">
+				<a data-aos="zoom-in"  data-aos-offset="500"
+     data-aos-duration="500" class="img-link" href="https://shethritu.github.io/deals.github.io/" target="_blank">
+					<img src="images/deals.jpg" alt="deals"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<a data-aos="zoom-in" data-aos-offset="500"
+     data-aos-duration="500" class="img-link" href="https://shethritu.github.io/restaurant-website.github.io/" target="_blank">
+					<img src="images/restaurant-website.jpg" alt="restaurant-website"></a>
+			</div>
+			<div class="col-lg-6">
+				<a data-aos="zoom-in" data-aos-offset="500"
+     data-aos-duration="500" class="img-link" href="https://shethritu.github.io/belgrade.github.io/" target="_blank">
+					<img src="images/belgrade.jpg" alt="belgrade"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<a data-aos="zoom-in"  data-aos-offset="500"
+     data-aos-duration="500" class="img-link" href="https://shethritu.github.io/events-prcision-globe.github.io/" target="_blank">
+					<img  src="images/events-prcision-globe.jpg" alt="events-prcision-globe"></a>
+			</div>
+		</div>
+	</div>
+</div>
 
 
+<div class="contact-form" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 title">
+ 			 	<h2>Contact Me</h2>
+ 			 	<h5>Let’s Start Building Something Amazing Together<br>Reach Out to Discuss Your Next Project</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<form id="contact-form">
+			   	<input type="text" id="name" name="user_name" placeholder="Your Name" required>
+			   	<input type="email" id="email" name="user_email" placeholder="Your Email" required>
+			   	<input type="text" id="subject" name="subject" placeholder="Subject">
+			   	<textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    	 	   	<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>  
+</div>
 
+<footer class="text-center footer">
+  <!-- Grid container -->
+  <div class="container pt-3 pb-3">
+    <!-- Section: Social media -->
+    <div class="row">
+    	<div class="col-lg-12">
+    		<div class="footer-title">
+    			<h6>Let’s Keep in Touch Online</h6>
+    		</div>
+      <!-- Facebook -->
+      	<a  target="_blank" data-mdb-ripple-init class="btn btn-link facebook-btn btn-floating btn-lg"
+        href="https://www.facebook.com/share/fNrnXWFeFU6RRq7M/?mibextid=LQQJ4d"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+      <!-- Instagram -->
+     	<a target="_blank" data-mdb-ripple-init class="btn btn-link instagram-btn btn-floating btn-lg m-1"
+        href="https://www.instagram.com/sheth.ritika" role="button"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+ 		<a  target="_blank" data-mdb-ripple-init class="btn btn-link whatsapp-btn btn-floating btn-lg"
+        href="https://wa.me/qr/YS7XFEHMWUF7D1"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+
+      <!-- Linkedin -->
+      <a target="_blank" data-mdb-ripple-init class="btn linkedin-btn btn-link btn-floating btn-lg"
+        href="https://www.linkedin.com/in/ritika-prajapati-020028194"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+       </div>
+      
+    </div>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+	<a href="javascript:" id="return-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript">
+
+	   (function() {
+            // Initialize EmailJS with your public key
+            emailjs.init("zu9m8yy7nAuSfKogg"); // This is your public key
+
+            // Form submission event
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent default form submission behavior
+
+                // Send form data using EmailJS
+                emailjs.sendForm('service_1l7vd0v', 'template_m7an0wc', this)
+                    .then(function() {
+                        alert('Message sent successfully!');
+                    }, function(error) {
+                        console.error('Failed to send message:', error);
+                        alert('Failed to send message. Check the console for more details.');
+                    });
+            });
+        })();
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>
