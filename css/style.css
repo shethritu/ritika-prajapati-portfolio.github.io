@@ -92,9 +92,10 @@ img {width: 100%;}
 
 /*---------------- header css start ----------------*/
 
-.navbar-brand img{max-width: 250px;width: 100%;}
+.navbar-brand img{max-width: 160px;width: 100%;}
 .navbar-collapse{flex-grow: inherit;}
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link:focus, .nav-link:hover {color: #F48C06;}
+.navbar-brand {padding: 0;}
 
 /*---------------- header css end ----------------*/
 
@@ -104,7 +105,7 @@ img {width: 100%;}
 .banner-inner h6::before {content: "";background-color: #faa307;width: 40px;position: absolute;bottom: -10px;height: 2px;}
 .banner-section .personal-img img{width: 100%;border-radius: 1000%;max-width: 600px;height: 600px;object-fit: cover;border: 10px solid #F48C06;padding: 10px;}
 .banner-inner h6 {text-transform: uppercase;letter-spacing: 1px;}
-.banner-inner .name-designation, .banner-inner h6 {margin-bottom:60px;}
+.banner-inner .name-designation, .banner-inner h6 {margin-bottom: 80px;}
 .banner-section .contact-details p {margin-bottom: 10px;}
 .banner-section .contact-details p a {color: #000;}
 .banner-section .contact-details p i{color: #F48C06;margin-right: 5px;}
@@ -304,12 +305,6 @@ transform: translate(-50%, -50%);
 /*---------------- about css start ----------------*/
 .about-img img, .banner-section .personal-img img {height: 430px;max-width: 430px;}
 /*---------------- about css end ----------------*/
-
-/*---------------- header css start ----------------*/
-
-.navbar-brand img {max-width: 210px;width: 100%;}
-
-/*---------------- header css end ----------------*/
 
 }/*-------- 767 ends here ----------*/
 
