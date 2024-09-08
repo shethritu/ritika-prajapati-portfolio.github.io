@@ -234,6 +234,11 @@ img {width: 100%;}
 /*---------------- about css start ----------------*/
 .about-img img{height: 300px;max-width: 300px;}
 /*---------------- about css end ----------------*/
+
+/*---------------- services css start ----------------*/
+ .icon-box img {max-width: 80px;}
+/*---------------- services css end ----------------*/
+
 }/*-------- 1199 ends here ----------*/
 
 @media screen and (max-width: 991px) {
