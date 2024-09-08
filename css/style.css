@@ -216,6 +216,22 @@ img {width: 100%;}
 .footer .btn.btn-link:hover .fa{position: relative;color: #fff;z-index: 2;}
 /*---------------- footer css end ----------------*/
 
+
+
+.menu.show {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none; /* Hide the hamburger on larger screens */
+  }
+
+  .menu {
+    display: block; /* Show menu by default on larger screens */
+  }
+}
+
 /*----------------------------- responsive style -------------------------*/
 
 @media screen and (max-width: 1520px) {
@@ -294,5 +310,6 @@ img {width: 100%;}
 @media screen and (max-width: 360px) {
 
 }/*-------- 360 ends here ----------*/
+
 
 
