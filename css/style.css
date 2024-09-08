@@ -235,6 +235,13 @@ img {width: 100%;}
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+#return-to-top:hover {
+    background: rgb(73, 122, 255);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
 
 /*----------------------------- responsive style -------------------------*/
 
