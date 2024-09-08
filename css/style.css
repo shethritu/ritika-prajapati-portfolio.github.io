@@ -244,7 +244,10 @@ img {width: 100%;}
 @media screen and (max-width: 991px) {
  /*---------------- banner css start ----------------*/
 .banner-section .personal-img img {max-width: 700px;height: 700px;}
+.banner-section .personal-img img{margin-top: 30px;}
 /*---------------- banner css end ----------------*/
+
+
 }/*-------- 991 ends here ----------*/
 
 @media screen and (max-width: 880px) {
