@@ -244,11 +244,12 @@ img {width: 100%;}
 @media screen and (max-width: 991px) {
  /*---------------- banner css start ----------------*/
 .banner-section .personal-img img {max-width: 700px;height: 700px;}
-.banner-section .personal-img img{margin-top: 30px;}
+.banner-section .personal-img{margin-top: 30px;text-align: center;}
 /*---------------- banner css end ----------------*/
 
 /*---------------- about css start ----------------*/
 .about-img {text-align: center;margin-top: 30px;}
+.about-img img {height: 700px;max-width: 700px;}
 /*---------------- about css end ----------------*/
 
 }/*-------- 991 ends here ----------*/
