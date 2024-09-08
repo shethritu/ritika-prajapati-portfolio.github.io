@@ -230,6 +230,10 @@ img {width: 100%;}
 /*---------------- banner css start ----------------*/
     .banner-section .personal-img img{max-width: 490px;height: 490px;}
 /*---------------- banner css end ----------------*/
+
+/*---------------- about css start ----------------*/
+.about-img img{height: 300px;max-width: 300px;}
+/*---------------- about css end ----------------*/
 }/*-------- 1199 ends here ----------*/
 
 @media screen and (max-width: 991px) {
