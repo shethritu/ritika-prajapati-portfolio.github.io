@@ -303,6 +303,7 @@ transform: translate(-50%, -50%);
 
 /*---------------- about css start ----------------*/
 .about-img img, .banner-section .personal-img img {height: 430px;max-width: 430px;}
+.about-img{order: -1;}
 /*---------------- about css end ----------------*/
 
 }/*-------- 767 ends here ----------*/
