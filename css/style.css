@@ -283,7 +283,7 @@ img {width: 100%;}
 }/*-------- 630 ends here ----------*/
 
 @media screen and (max-width: 568px) {
-
+.about-img img, .banner-section .personal-img img {height: 350px;max-width: 350px;}
 }/*-------- 568 ends here ----------*/
 
 @media screen and (max-width: 480px) {
