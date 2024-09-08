@@ -217,9 +217,7 @@ img {width: 100%;}
 /*---------------- footer css end ----------------*/
 
 #return-to-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -245,7 +243,10 @@ img {width: 100%;}
     color: #fff;
     top: 5px;
 }
-
+#return-to-top .fa.fa-angle-up {
+    color: #fff;
+    font-size: 25px;
+}
 /*----------------------------- responsive style -------------------------*/
 
 @media screen and (max-width: 1520px) {
