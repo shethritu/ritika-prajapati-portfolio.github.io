@@ -217,6 +217,9 @@ img {width: 100%;}
 /*---------------- footer css end ----------------*/
 
 #return-to-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     bottom: 20px;
     right: 20px;
