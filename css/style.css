@@ -243,6 +243,7 @@ img {width: 100%;}
 
 @media screen and (max-width: 991px) {
  /*---------------- banner css start ----------------*/
+.banner-section .name-designation h1 {font-size: 3.882353rem;}
 .banner-section .personal-img img {max-width: 700px;height: 700px;}
 .banner-section .personal-img{margin-top: 30px;text-align: center;}
 /*---------------- banner css end ----------------*/
@@ -259,6 +260,10 @@ img {width: 100%;}
 }/*-------- 880 ends here ----------*/
 
 @media screen and (max-width: 767px) {
+/*---------------- banner css start ----------------*/
+.banner-section .name-designation h1 {font-size: 2.882353rem;}
+/*---------------- banner css end ----------------*/
+
  /*---------------- about css start ----------------*/
 .about-img img, .banner-section .personal-img img {height: 430px;max-width: 430px;}
 /*---------------- about css end ----------------*/
