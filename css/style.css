@@ -103,7 +103,7 @@ img {width: 100%;}
 .banner-section {padding: 80px 0;background-color: #f8f9fa;}
 .banner-inner h6 {position: relative;}
 .banner-inner h6::before {content: "";background-color: #faa307;width: 40px;position: absolute;bottom: -10px;height: 2px;}
-.banner-section .personal-img img{width: 100%;object-position: top;border-radius: 1000%;max-width: 600px;height: 600px;object-fit: cover;border: 10px solid #F48C06;padding: 10px;}
+.banner-section .personal-img img{width: 100%;object-position: center;border-radius: 1000%;max-width: 600px;height: 600px;object-fit: cover;border: 10px solid #F48C06;padding: 10px;}
 .banner-inner h6 {text-transform: uppercase;letter-spacing: 1px;}
 .banner-inner .name-designation, .banner-inner h6 {margin-bottom: 80px;}
 .banner-section .contact-details p {margin-bottom: 10px;}
