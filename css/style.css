@@ -1,79 +1,79 @@
 @font-face {
-    font-family: 'Real Text';
-    src: url('../fonts/RealTextBlack.eot');
-    src: url('../fonts/RealTextBlack.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RealTextBlack.woff2') format('woff2'),
-        url('../fonts/RealTextBlack.woff') format('woff'),
-        url('../fonts/RealTextBlack.ttf') format('truetype'),
-        url('../fonts/RealTextBlack.svg#RealTextBlack') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+font-family: 'Real Text';
+src: url('../fonts/RealTextBlack.eot');
+src: url('../fonts/RealTextBlack.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RealTextBlack.woff2') format('woff2'),
+    url('../fonts/RealTextBlack.woff') format('woff'),
+    url('../fonts/RealTextBlack.ttf') format('truetype'),
+    url('../fonts/RealTextBlack.svg#RealTextBlack') format('svg');
+font-weight: 900;
+font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: 'Real Text';
-    src: url('../fonts/RealTextBold.eot');
-    src: url('../fonts/RealTextBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RealTextBold.woff2') format('woff2'),
-        url('../fonts/RealTextBold.woff') format('woff'),
-        url('../fonts/RealTextBold.ttf') format('truetype'),
-        url('../fonts/RealTextBold.svg#RealTextBold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+font-family: 'Real Text';
+src: url('../fonts/RealTextBold.eot');
+src: url('../fonts/RealTextBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RealTextBold.woff2') format('woff2'),
+    url('../fonts/RealTextBold.woff') format('woff'),
+    url('../fonts/RealTextBold.ttf') format('truetype'),
+    url('../fonts/RealTextBold.svg#RealTextBold') format('svg');
+font-weight: bold;
+font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: 'Real Text';
-    src: url('../fonts/RealTextRegular.eot');
-    src: url('../fonts/RealTextRegular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RealTextRegular.woff2') format('woff2'),
-        url('../fonts/RealTextRegular.woff') format('woff'),
-        url('../fonts/RealTextRegular.ttf') format('truetype'),
-        url('../fonts/RealTextRegular.svg#RealTextRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+font-family: 'Real Text';
+src: url('../fonts/RealTextRegular.eot');
+src: url('../fonts/RealTextRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RealTextRegular.woff2') format('woff2'),
+    url('../fonts/RealTextRegular.woff') format('woff'),
+    url('../fonts/RealTextRegular.ttf') format('truetype'),
+    url('../fonts/RealTextRegular.svg#RealTextRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: 'Real Text';
-    src: url('../fonts/RealTextLight.eot');
-    src: url('../fonts/RealTextLight.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RealTextLight.woff2') format('woff2'),
-        url('../fonts/RealTextLight.woff') format('woff'),
-        url('../fonts/RealTextLight.ttf') format('truetype'),
-        url('../fonts/RealTextLight.svg#RealTextLight') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+font-family: 'Real Text';
+src: url('../fonts/RealTextLight.eot');
+src: url('../fonts/RealTextLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RealTextLight.woff2') format('woff2'),
+    url('../fonts/RealTextLight.woff') format('woff'),
+    url('../fonts/RealTextLight.ttf') format('truetype'),
+    url('../fonts/RealTextLight.svg#RealTextLight') format('svg');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: 'Real Text';
-    src: url('../fonts/RealTextMedium.eot');
-    src: url('../fonts/RealTextMedium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RealTextMedium.woff2') format('woff2'),
-        url('../fonts/RealTextMedium.woff') format('woff'),
-        url('../fonts/RealTextMedium.ttf') format('truetype'),
-        url('../fonts/RealTextMedium.svg#RealTextMedium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+font-family: 'Real Text';
+src: url('../fonts/RealTextMedium.eot');
+src: url('../fonts/RealTextMedium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RealTextMedium.woff2') format('woff2'),
+    url('../fonts/RealTextMedium.woff') format('woff'),
+    url('../fonts/RealTextMedium.ttf') format('truetype'),
+    url('../fonts/RealTextMedium.svg#RealTextMedium') format('svg');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: 'Grandista';
-    src: url('../fonts/Grandista.eot');
-    src: url('../fonts/Grandista.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Grandista.woff2') format('woff2'),
-        url('../fonts/Grandista.woff') format('woff'),
-        url('../fonts/Grandista.ttf') format('truetype'),
-        url('../fonts/Grandista.svg#Grandista') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+font-family: 'Grandista';
+src: url('../fonts/Grandista.eot');
+src: url('../fonts/Grandista.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Grandista.woff2') format('woff2'),
+    url('../fonts/Grandista.woff') format('woff'),
+    url('../fonts/Grandista.ttf') format('truetype'),
+    url('../fonts/Grandista.svg#Grandista') format('svg');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
 }
 
 
@@ -139,37 +139,37 @@ img {width: 100%;}
 .service-block-one .card__content h4{    font-family: 'Grandista';font-style: normal;}
 
 @keyframes slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 1920px 0;
-  }
+from {
+background-position: 0 0;
+}
+to {
+background-position: 1920px 0;
+}
 }
 @-webkit-keyframes slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 1920px 0;
-  }
+from {
+background-position: 0 0;
+}
+to {
+background-position: 1920px 0;
+}
 }
 
 @keyframes slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 1920px 0;
-  }
+from {
+background-position: 0 0;
+}
+to {
+background-position: 1920px 0;
+}
 }
 @-webkit-keyframes slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 1920px 0;
-  }
+from {
+background-position: 0 0;
+}
+to {
+background-position: 1920px 0;
+}
 }
 
 .service-block-one .inner-box:hover .icon-box {transform: rotateY(360deg);color: #fff;}
@@ -217,35 +217,39 @@ img {width: 100%;}
 /*---------------- footer css end ----------------*/
 
 #return-to-top {
-  
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #F48C06;
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #F48C06;
+width: 50px;
+height: 50px;
+display: block;
+text-decoration: none;
+-webkit-border-radius: 35px;
+-moz-border-radius: 35px;
+border-radius: 35px;
+display: none;
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
 }
 #return-to-top:hover {
-    opacity:0.8;
+opacity:0.8;
 }
 #return-to-top:hover i {
-    color: #fff;
-    top: 5px;
+color: #fff;
+top: 5px;
 }
 #return-to-top .fa.fa-angle-up {
-    color: #fff;
-    font-size: 25px;
+color: #fff;
+font-size: 25px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 /*----------------------------- responsive style -------------------------*/
 
@@ -259,7 +263,7 @@ img {width: 100%;}
 
 @media screen and (max-width: 1199px) {
 /*---------------- banner css start ----------------*/
-    .banner-section .personal-img img{max-width: 490px;height: 490px;}
+.banner-section .personal-img img{max-width: 490px;height: 490px;}
 /*---------------- banner css end ----------------*/
 
 /*---------------- about css start ----------------*/
@@ -267,13 +271,13 @@ img {width: 100%;}
 /*---------------- about css end ----------------*/
 
 /*---------------- services css start ----------------*/
- .icon-box img {max-width: 80px;}
+.icon-box img {max-width: 80px;}
 /*---------------- services css end ----------------*/
 
 }/*-------- 1199 ends here ----------*/
 
 @media screen and (max-width: 991px) {
- /*---------------- banner css start ----------------*/
+/*---------------- banner css start ----------------*/
 .banner-section .name-designation h1 {font-size: 3.882353rem;}
 .banner-section .personal-img img {max-width: 700px;height: 700px;}
 .banner-section .personal-img{margin-top: 30px;text-align: center;}
@@ -297,7 +301,7 @@ img {width: 100%;}
 .banner-section .name-designation h1 {font-size: 2.882353rem;}
 /*---------------- banner css end ----------------*/
 
- /*---------------- about css start ----------------*/
+/*---------------- about css start ----------------*/
 .about-img img, .banner-section .personal-img img {height: 430px;max-width: 430px;}
 /*---------------- about css end ----------------*/
 
