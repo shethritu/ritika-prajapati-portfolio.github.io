@@ -247,6 +247,9 @@ img {width: 100%;}
 .banner-section .personal-img img{margin-top: 30px;}
 /*---------------- banner css end ----------------*/
 
+/*---------------- about css start ----------------*/
+.about-img {text-align: center;margin-top: 30px;}
+/*---------------- about css end ----------------*/
 
 }/*-------- 991 ends here ----------*/
 
