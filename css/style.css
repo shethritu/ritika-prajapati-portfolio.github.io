@@ -183,7 +183,7 @@ body.show #header .main-nav .cancel-menu span {
 .banner-section .contact-details p {margin-bottom: 10px;}
 .banner-section .contact-details p a {color: #000;}
 .banner-section .contact-details p i{color: #F48C06;margin-right: 5px;}
-.banner-section .name-designation h1 {font-size: 4.8823529411765rem;}
+.banner-section .name-designation h1 {font-size: 2.8rem;}
 .banner-inner .name-designation h2 {color: #B7B7A5;font-weight: normal;    font-family: 'Grandista';font-style: normal;}
 
 /*---------------- banner css end ----------------*/
@@ -426,7 +426,6 @@ transform: translate(-50%, -50%);
     }
   /*---------------- header css end ----------------*/
     /*---------------- banner css start ----------------*/
-    .banner-section .name-designation h1 {font-size: 3.882353rem;}
     .banner-section .personal-img img {max-width: 700px;height: 700px;}
     .banner-section .personal-img{margin-top: 30px;text-align: center;}
     /*---------------- banner css end ----------------*/
@@ -446,7 +445,7 @@ transform: translate(-50%, -50%);
     /*---------------- banner css start ----------------*/
     .banner-section, .about-section, .services-section, .contact-form, .portfolio-section {padding: 60px 0;}
     .banner-inner .name-designation, .banner-inner h6 {margin-bottom: 50px;}
-    .banner-section .name-designation h1 {font-size: 2.882353rem;}
+    .banner-section .name-designation h1 {font-size: 1.8rem;}
     /*---------------- banner css end ----------------*/
 
     /*---------------- about css start ----------------*/
@@ -466,12 +465,13 @@ transform: translate(-50%, -50%);
 
 @media screen and (max-width: 480px) {
     .title h5 {font-size: 17px;}
-    .banner-section .name-designation h1 {font-size: 2.2rem;}
+    .banner-section .name-designation h1 {font-size: 1.2rem;}
 }/*-------- 480 ends here ----------*/
 
 @media screen and (max-width: 360px) {
 
 }/*-------- 360 ends here ----------*/
+
 
 
 
