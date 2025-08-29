@@ -168,6 +168,9 @@ body.show #header .main-nav .cancel-menu span {
     z-index: 1000;
     box-shadow: 0 0 10px 2px #0000005d;
 }
+.nav-link {
+    text-transform: uppercase;
+}
 /*---------------- header css end ----------------*/
 
 /*---------------- banner css start ----------------*/
@@ -469,5 +472,6 @@ transform: translate(-50%, -50%);
 @media screen and (max-width: 360px) {
 
 }/*-------- 360 ends here ----------*/
+
 
 
