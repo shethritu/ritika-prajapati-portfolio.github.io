@@ -465,12 +465,12 @@ transform: translate(-50%, -50%);
 
 @media screen and (max-width: 480px) {
     .title h5 {font-size: 17px;}
-    .banner-section .name-designation h1 {font-size: 1.2rem;}
 }/*-------- 480 ends here ----------*/
 
 @media screen and (max-width: 360px) {
 
 }/*-------- 360 ends here ----------*/
+
 
 
 
